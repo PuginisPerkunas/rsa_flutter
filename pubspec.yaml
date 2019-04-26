@@ -1,0 +1,25 @@
+name: rsa_key_generator
+description: Flutter app to generate RSA keys
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #encryption
+  pointycastle: ^1.0.0
+  asn1lib: ^0.5.3
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
